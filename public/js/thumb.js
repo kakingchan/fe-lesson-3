@@ -1,5 +1,6 @@
 let timer = null;
 import add from './add'
+import $ from 'jquery'
 class PraiseButton {
     constructor(num, element) {
         this.num = num;

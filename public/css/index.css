@@ -4,6 +4,10 @@
 	    overflow: hidden;
 	}
 	
+	body {
+	    padding: 100px 0;
+	}
+	
 	.hand {
 	    position: relative;
 	    top: 30%;

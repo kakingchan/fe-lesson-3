@@ -1,4 +1,5 @@
-import xTag from 'x-tag'
+import xtag from 'x-tag'
+
 
 xtag.register('x-clock', {
     lifecycle: {
@@ -25,3 +26,21 @@ xtag.register('x-clock', {
         }
     }
 });
+
+xtag.register('x-praise', {
+    content: `<div class="hand" id="thumb">
+                    <div class="finger"></div>
+                    <div class="finger"></div>
+                    <div class="finger"></div>
+                    <div class="finger"></div>
+                    <div class="finger thumb"></div>
+                    <div class="arm"></div>
+                </div>
+                <span class="hide" id="animation">+1</span>`,
+    lifecycle: {
+        created: function() {}
+    },
+    methods: {
+
+    },
+})
